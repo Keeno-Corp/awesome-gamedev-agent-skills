@@ -238,6 +238,7 @@ Some engine vendors ship their own agent skills or editor connections. When the 
 | Unity's official skills or Unity agent plugin | skill names such as `unity-cli`, `unity-pipeline`, `create-2d-physics`, `initialize-ai-navigation`, or a `unity:` prefix |
 | Roblox Studio agent plugin or Studio MCP | a `roblox-get-started` skill, Studio tools such as `list_roblox_studios` or `execute_luau`, a Studio `skill` tool |
 | Epic's Unreal plugin | an `unreal-mcp` skill or Unreal editor tools |
+| paprika3d (three.js MCP server or Claude Code plugin) | an MCP server named `paprika` with tools such as `open`, `look` and `interact`, tools prefixed `mcp__plugin_paprika3d_paprika__`, or a `threejs-game` or `paprika-make` skill |
 | OpenAI's `game-studio` plugin | skills such as `game-studio`, `phaser-2d-game`, `three-webgl-game`, `react-three-fiber-game` |
 
 - **Theirs:** live-editor actions — create or change scenes and assets, run, play-test,

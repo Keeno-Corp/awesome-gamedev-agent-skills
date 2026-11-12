@@ -5,6 +5,10 @@ and releases use [semantic versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- **Router:** lists the paprika3d three.js MCP server and plugin among the vendor tools to split
+  live-page work with, and `threejs-scene-setup` can run its smoke test through it when it is
+  already connected.
+
 ## [2.0.0] - 2026-11-11
 
 ### v2 quality release

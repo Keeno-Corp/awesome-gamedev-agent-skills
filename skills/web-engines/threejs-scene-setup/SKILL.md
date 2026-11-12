@@ -190,6 +190,12 @@ Expect `drawCalls` above 0, a canvas size other than 0 × 0, and no errors. Open
 screenshots: the second must still show the scene, or something holds GPU objects that the
 restore did not rebuild.
 
+3. **Optional:** if the paprika3d MCP server (`paprika`) is already connected, run the same
+   check through it: `open` the project folder and page, which lists failed loads and page
+   errors, then `look`, which lists objects that are never on screen and saves a screenshot. It
+   runs the page in headless Chrome on a paused, seeded clock, so `interact` steps replay the
+   same frames each time. Without it, step 2 is the check.
+
 ## Gotchas
 
 - **`Failed to resolve module specifier "three"`** → no import map or bundler. Map both
